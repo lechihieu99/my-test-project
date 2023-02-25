@@ -1,0 +1,17 @@
+@font-face {
+  font-family: 'Epilogue_Title';
+  src: url('./fonts/Epilogue/static/Epilogue-Medium.ttf');
+}
+@font-face {
+  font-family: 'Epilogue_Sub';
+  src: url('./fonts/Epilogue/static/Epilogue-Black.ttf');
+}
+body {
+  margin: 0;
+  padding: 0;
+  /* background-color: rgb(14, 12, 32); */
+}
+* {
+  font-family: 'Epilogue_Sub';
+  font-size: 18px;
+}

@@ -1,0 +1,96 @@
+#picSection1 {
+    width: 400px;
+    height: 200px;
+    background-image: url('./images/pic1.jpg');
+    background-size: cover;
+}
+#picSection2 {
+    width: 200px;
+    height: 400px;
+    background-image: url('./images/pic2.jpeg');
+    background-size: cover;
+}
+#square1 , #square2 {
+    width: 100px;
+    height: 100px;
+}
+#square1 {
+    background-color: aqua;
+}
+#square2 {
+    background-color: brown;
+}
+#picSection4 {
+    width: 500px;
+    height: 400px;
+    background-image: url('./images/pic3.jpg');
+    background-size: cover;
+}
+
+#imageBoxSection5 {
+    width: 200px;
+    height: 400px;
+    background-size: cover;
+}
+#contentBoxSection5:nth-child(1) > #imageBoxSection5 {
+    background-image: url('./images/pic4.jpeg');
+}
+#contentBoxSection5:nth-child(2) > #imageBoxSection5 {
+    background-image:url('./images/pic5.jpeg');
+}
+#contentBoxSection5:nth-child(3) > #imageBoxSection5 {
+    background-image: url('./images/pic6.jpeg');
+}
+#contentBoxSection5:nth-child(4) > #imageBoxSection5 {
+    background-image: url('./images/pic7.jpg');
+}
+
+#imageBoxSection6 {
+    width: 400px;
+    height: 400px;
+    background-size: cover;
+}
+#contentBoxSection6:nth-child(1) > #imageBoxSection6 {
+    background-image: url('./images/pic8.jpg');
+}
+#contentBoxSection6:nth-child(2) > #imageBoxSection6 {
+    background-image: url('./images/pic9.jpg');
+}
+#contentBoxSection6:nth-child(3) > #imageBoxSection6 {
+    background-image: url('./images/pic10.jpeg');
+}
+#contentBoxSection6:nth-child(4) > #imageBoxSection6 {
+    background-image: url('./images/pic11.jpeg');
+}
+#contentBoxSection6:nth-child(5) > #imageBoxSection6 {
+    background-image: url('./images/pic12.jpg');
+}
+#contentBoxSection6:nth-child(6) > #imageBoxSection6 {
+    background-image: url('./images/pic13.jpg');
+}
+
+#imageSection7 {
+    width: 150px;
+    height: 150px;
+    background-image: url('./images/pic3.jpg');
+    border-radius: 100px;
+    background-size: cover;
+}
+
+#imageBoxSection8 {
+    width: 650px;
+    height: 400px;
+    background-size: cover;
+}
+#boxContentSection8:nth-child(1) > #imageBoxSection8 {
+    background-image: url('./images/pic14.jpg');
+}
+#boxContentSection8:nth-child(2) > #imageBoxSection8 {
+    background-image: url('./images/pic15.jpg');
+}
+#boxContentSection8:nth-child(3) > #imageBoxSection8 {
+    background-image: url('./images/pic16.jpg');
+}
+#boxContentSection8:nth-child(4) > #imageBoxSection8 {
+    background-image: url('./images/pic17.jpg');
+}
