@@ -726,7 +726,7 @@ a:hover {
         font-size: 14px;
     }
     #iconMenu {
-        right: 8%;
+        right: 10%;
     }
 
     /* Section 1 */
@@ -764,7 +764,7 @@ a:hover {
     }
     #boxSection3 > #box {
         width: 100%;
-        height: 50vh;
+        height: 40vh;
     }
     #boxSection3 > #box > #title {
         margin-top: 0;
@@ -775,6 +775,11 @@ a:hover {
     }
     #box:nth-child(2) > #square2 {
         left: 70px;
+    }
+
+    /* Section 4 */
+    #titleSection4 {
+        top: 120%;
     }
 
     /* Section 5 */
@@ -803,7 +808,7 @@ a:hover {
 
     /* Section 6 */
     section:nth-child(6) {
-        transform: translateY(550px);
+        transform: translateY(650px);
     }
     #contentSection9 {
         font-size: 23px;
@@ -871,7 +876,11 @@ a:hover {
         transform: translateY(950px);
     }
     #boxSection8 {
-        grid: 40vh 40vh / auto auto;
+        grid: 40vh 40vh / 48% 48%;
+        gap: 4%; 
+    }
+    #boxContentSection8 {
+        width: 100%;
     }
     #titleBoxSection8 {
         font-size: 20px;
@@ -883,6 +892,13 @@ a:hover {
     /* Footer */
     .footer {
         padding-top: 140px;
+        display: flex;
+    }
+    #leftFooter {
+        width: 30%;
+    }
+    #rightFooter {
+        width: 70%;
     }
     
 }
