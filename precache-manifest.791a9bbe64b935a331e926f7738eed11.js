@@ -36,24 +36,28 @@ self.__precacheManifest = [
     "url": "/my-test-project/static/media/pic1.3c59ec89.jpg"
   },
   {
-    "revision": "cd1301d60d9fdac025917d36d9eb45b2",
-    "url": "/my-test-project/static/media/pic3.cd1301d6.jpg"
+    "revision": "f4928ff024b9697247cb1996e737e586",
+    "url": "/my-test-project/static/media/pic2.f4928ff0.jpeg"
   },
   {
-    "revision": "d9151b2355e14172e08757e40da9506d",
-    "url": "/my-test-project/static/media/pic5.d9151b23.jpeg"
+    "revision": "cd1301d60d9fdac025917d36d9eb45b2",
+    "url": "/my-test-project/static/media/pic3.cd1301d6.jpg"
   },
   {
     "revision": "6ff209126b14b160053afdbd05e965b0",
     "url": "/my-test-project/static/media/pic6.6ff20912.jpeg"
   },
   {
-    "revision": "c5ced750b3fcc62e360bd559f1dc59f3",
-    "url": "/my-test-project/static/media/pic9.c5ced750.jpg"
+    "revision": "d9151b2355e14172e08757e40da9506d",
+    "url": "/my-test-project/static/media/pic5.d9151b23.jpeg"
   },
   {
     "revision": "7fbba3c4dff902cb784fef86a1f287fb",
     "url": "/my-test-project/static/media/pic7.7fbba3c4.jpg"
+  },
+  {
+    "revision": "c5ced750b3fcc62e360bd559f1dc59f3",
+    "url": "/my-test-project/static/media/pic9.c5ced750.jpg"
   },
   {
     "revision": "99e99b5a91e4d07b9acfbb8c9d506190",
@@ -84,24 +88,20 @@ self.__precacheManifest = [
     "url": "/my-test-project/static/media/pic7_mobile.094d85c1.jpg"
   },
   {
-    "revision": "f4928ff024b9697247cb1996e737e586",
-    "url": "/my-test-project/static/media/pic2.f4928ff0.jpeg"
-  },
-  {
     "revision": "7c03e2b4751eef2e82a49fabc545925f",
     "url": "/my-test-project/static/media/pic10.7c03e2b4.jpeg"
   },
   {
-    "revision": "f811f5ed65ed5050ef24bf70bfcff17b",
-    "url": "/my-test-project/static/media/pic17.f811f5ed.jpg"
+    "revision": "b4630fcb5f7ec496b6a7bdeadea7c4a4",
+    "url": "/my-test-project/static/media/pic14.b4630fcb.jpg"
   },
   {
     "revision": "a1dfb39ea978505d366152ac00c6885e",
     "url": "/my-test-project/static/media/pic16.a1dfb39e.jpg"
   },
   {
-    "revision": "b4630fcb5f7ec496b6a7bdeadea7c4a4",
-    "url": "/my-test-project/static/media/pic14.b4630fcb.jpg"
+    "revision": "f811f5ed65ed5050ef24bf70bfcff17b",
+    "url": "/my-test-project/static/media/pic17.f811f5ed.jpg"
   },
   {
     "revision": "5950816eb394369178b3674ccadf4aa1",
