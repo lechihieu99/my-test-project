@@ -5,10 +5,14 @@ import Menu from "./components/header/menu";
 export default class Header extends Component {
     render() {
         return(
+            <>
             <div id="header">
                 <MainHeader  number='+1 (123) 456 78 90' email='mobirise@company.com'/>
-                <Menu />
+                
             </div>
+            <Menu />
+            </>
+            
         );
     }
 }

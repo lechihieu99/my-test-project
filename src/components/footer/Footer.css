@@ -1,0 +1,27 @@
+.footer {
+    transform: translateY(950px);
+    z-index: 4;
+    display: flex;
+    flex-direction: row;
+    height: 20vh;
+}
+#leftFooter {
+    width: 50%;
+    text-align: left;
+}
+#titleLeftFooter , #titleRightFooter {
+    color: rgb(183, 229, 251);
+}
+#rightFooter {
+    width: 50%;
+    text-align: right;
+}
+#linkLeftFooter , #linkRightFooter {
+    padding-top: 30px;
+}
+#linkLeftFooter > a {
+    padding-right: 20px;
+}
+#linkRightFooter > a {
+    padding-left: 20px;
+}

@@ -9,7 +9,9 @@ class Box extends Component {
             <div id="boxContentSection8">
                 <div id="titleBoxSection8">{this.props.title}</div>
                 <div id="hastagSection8">{this.props.hastag}</div>
-                <div id="imageBoxSection8"></div>
+                <div id="boxImageSec8">
+                    <div id="imageBoxSection8"></div>
+                </div>
             </div>
         );
     }
@@ -17,11 +19,11 @@ class Box extends Component {
 export default class Section8 extends Component {
     render() {
         return(
-            <section>
+            <section id="section9">
+                <div id="text1Section8">MOTION GRAPHICS STUDIO -</div>
                 <div id="titleContentSection8">
                     <div id="leftSection8">
-                        <div id="text1Section8">MOTION GRAPHICS STUDIO -</div>
-                        <div id="text2Section8">Recent Works</div>
+                        Recent Works
                     </div>
                     <div id="rightSection8">Lorem, ipsum dolor sit, amet consectetur adipisicing elit. Sint quasi perferendis cum tempore placeat necessitatibus odit totam reiciendis, mollitia repellat ipsum aut consequuntur ipsam voluptatem delectus distinctio ea deserunt natus.</div>
                 </div>

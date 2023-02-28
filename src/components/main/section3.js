@@ -6,12 +6,12 @@ class Box extends Component {
     }
     render() {
         return(
-            <>
+            <div id="box">
                 <div id="square1"></div>
                 <div id="square2"></div>
                 <div id="title">{this.props.title}</div>
                 <div id="sub">{this.props.sub}</div>
-            </>
+            </div>
             
         );
     }
@@ -19,7 +19,7 @@ class Box extends Component {
 export default class Section3 extends Component {
     render() {
         return(
-            <section>
+            <section id="section3">
                 <div id="miniTitleSection3">MOTION GRAPHICS STUDIO -</div>
                 <div id="titleSection3">What can we do</div>
                 <div id="boxSection3">

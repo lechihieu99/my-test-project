@@ -8,8 +8,11 @@ class Box extends Component {
         return (
             <div id="contentBoxSection6">
                 <div id="imageBoxSection6"></div>
-                <div id="name">{this.props.name}</div>
-                <div id="type">{this.props.type}</div>
+                <div id="contentBox">
+                    <div id="name">{this.props.name}</div>
+                    <div id="type">{this.props.type}</div>
+                </div>
+                
             </div>
         );
     }
@@ -17,7 +20,7 @@ class Box extends Component {
 export default class Section6 extends Component {
     render() {
         return(
-            <section>
+            <section id="section7">
                 <div id="miniTitleSection6">SHOWCASE -</div>
                 <div id="titleSection6">Start your project with us</div>
                 <div id="boxSection6">
