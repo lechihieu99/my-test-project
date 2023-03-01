@@ -79,6 +79,10 @@
     display: block;
     z-index: 4;
 }
+#note {
+    font-size: 13px;
+    width: 100%;
+}
 
 
 /* Tablet mode */
