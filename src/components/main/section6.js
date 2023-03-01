@@ -23,14 +23,17 @@ export default class Section6 extends Component {
             <section id="section7">
                 <div id="miniTitleSection6">SHOWCASE -</div>
                 <div id="titleSection6">Start your project with us</div>
-                <div id="boxSection6">
-                    <Box name='Design' type='ART CREATIVE'/>
-                    <Box name='Brand' type='PHOTO DESIGN' />
-                    <Box name='Illustration' type='PHOTO DESIGN' />
-                    <Box name='Animation' type='MOTION GRAPHICS' />
-                    <Box name='Concept' type='MOTION GRAPHICS' />
-                    <Box name='Creative' type='MIXED MEDIA' />
+                <div id="boxSection6Mobile">
+                    <div id="boxSection6">
+                        <Box name='Design' type='ART CREATIVE'/>
+                        <Box name='Brand' type='PHOTO DESIGN' />
+                        <Box name='Illustration' type='PHOTO DESIGN' />
+                        <Box name='Animation' type='MOTION GRAPHICS' />
+                        <Box name='Concept' type='MOTION GRAPHICS' />
+                        <Box name='Creative' type='MIXED MEDIA' />
+                    </div>
                 </div>
+                
             </section>
         );
     }

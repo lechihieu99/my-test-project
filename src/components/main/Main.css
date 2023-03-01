@@ -779,7 +779,11 @@ a:hover {
 
     /* Section 4 */
     #titleSection4 {
-        top: 120%;
+        top: 90%;
+    }
+    #cancelButton {
+        right: 0;
+        top: -40px;
     }
 
     /* Section 5 */
@@ -818,9 +822,12 @@ a:hover {
     section:nth-child(7) {
         transform: translateY(750px);
         width: 100%;
+        height: fit-content;
     }
-    #boxSection6 {
-        width: 100%;
+    #titleSection6 {
+        padding-top: 20px;
+        font-size: 60px;
+        color: rgb(183, 229, 251);
     }
     #imageBoxSection6 {
         width: 100%;
@@ -828,22 +835,96 @@ a:hover {
         background-size: cover;
     }
     #boxSection6 {
-        width: 100%;
+        padding-top: 60px;
+        width: 200%;
         display: grid;
-        grid: 40vh 30vh 70vh / 30% 30% 30%;
-        gap: 5%;
+        grid: 100% / auto auto auto auto auto auto;
+        gap: 4%;
         z-index: 3;
     }
+    #contentBox {
+        width: 100%;
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+    }
     #name {
-        font-size: 20px;
+        text-align: left;
+        width: 30%;
+        font-size: 30px;
+        color: rgb(183, 229, 251);
+    }
+    #type {
+        width: 70%;
+        text-align: right;
+    }
+    #contentBoxSection6:hover > #imageBoxSection6 {
+        filter: brightness(1.2);
+        cursor: pointer;
+    }
+    #contentBoxSection6:hover > #contentBox > #name {
+        color: rgb(255, 121, 53);
+        text-shadow: rgb(255, 206, 255) 1px 1px;
+        cursor: pointer;
+    }
+    #contentBoxSection6:nth-child(1) {
+        all: initial;
+        all: unset;
+    }
+    #contentBoxSection6:nth-child(5) {
+        all: initial;
+        all: unset;
+    }
+    #contentBoxSection6:nth-child(6) {
+        all: initial;
+        all: unset;
+    }
+    #contentBoxSection6:nth-child(5) > #imageBoxSection6 {
+        height: 80%;
+    }
+    
+    #contentBoxSection6:nth-child(1) > #imageBoxSection6 {
+        background-image: url('./images/pic8_mobile.jpg');
+    }
+    #contentBoxSection6:nth-child(2) > #imageBoxSection6 {
+        background-image: url('./images/pic9.jpg');
+    }
+    #contentBoxSection6:nth-child(3) > #imageBoxSection6 {
+        background-image: url('./images/pic10_mobile.jpeg');
+    }
+    #contentBoxSection6:nth-child(4) > #imageBoxSection6 {
+        background-image: url('./images/pic11.jpeg');
+    }
+    #contentBoxSection6:nth-child(5) > #imageBoxSection6 {
+        background-image: url('./images/pic12.jpg');
+    }
+    #contentBoxSection6:nth-child(6) > #imageBoxSection6 {
+        background-image: url('./images/pic13.jpg');
+    }
+    #boxSection6Mobile {
+        width: 100%;
+        height: 70vh;
+        overflow-x: scroll;
+    }
+    #imageBoxSection6 {
+        height: 80%;
+    }
+    
+    ::-webkit-scrollbar {
+        width: 0px;  /* Remove scrollbar space */
+        background: transparent;  /* Optional: just make scrollbar invisible */
+    }
+    #boxSection6 {
+        height: 60vh;
+    }
+    #boxSection6 > #contentBoxSection6:nth-child(n-1) {
+        width: 180px;
+        height: 100%;
     }
     #type {
         display: none;
     }
-    #contentBoxSection6:nth-child(5) > #imageBoxSection6 {
-        background-image: url('./images/pic7_mobile.jpg');
-        height: 50%;
-    }
+
 
 
     /* Section 8 */
