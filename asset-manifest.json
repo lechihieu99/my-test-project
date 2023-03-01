@@ -1,7 +1,7 @@
 {
-  "main.css": "/my-test-project/static/css/main.b506ccf0.chunk.css",
-  "main.js": "/my-test-project/static/js/main.f388c00c.chunk.js",
-  "main.js.map": "/my-test-project/static/js/main.f388c00c.chunk.js.map",
+  "main.css": "/my-test-project/static/css/main.d2efec4b.chunk.css",
+  "main.js": "/my-test-project/static/js/main.757f032b.chunk.js",
+  "main.js.map": "/my-test-project/static/js/main.757f032b.chunk.js.map",
   "static/js/1.f4a2a6c0.chunk.js": "/my-test-project/static/js/1.f4a2a6c0.chunk.js",
   "static/js/1.f4a2a6c0.chunk.js.map": "/my-test-project/static/js/1.f4a2a6c0.chunk.js.map",
   "static/js/2.2af1826a.chunk.js": "/my-test-project/static/js/2.2af1826a.chunk.js",
@@ -11,8 +11,8 @@
   "static/media/index.css": "/my-test-project/static/media/Epilogue-Black.bb7e1465.ttf",
   "static/media/logo.svg": "/my-test-project/static/media/logo.06e73328.svg",
   "static/media/Main.css": "/my-test-project/static/media/pic4.5950816e.jpeg",
-  "static/css/main.b506ccf0.chunk.css.map": "/my-test-project/static/css/main.b506ccf0.chunk.css.map",
+  "static/css/main.d2efec4b.chunk.css.map": "/my-test-project/static/css/main.d2efec4b.chunk.css.map",
   "index.html": "/my-test-project/index.html",
-  "precache-manifest.2a382211bffe90da01d50693042789c8.js": "/my-test-project/precache-manifest.2a382211bffe90da01d50693042789c8.js",
+  "precache-manifest.f9214e725e298add9e3d93a98f6f097c.js": "/my-test-project/precache-manifest.f9214e725e298add9e3d93a98f6f097c.js",
   "service-worker.js": "/my-test-project/service-worker.js"
 }
