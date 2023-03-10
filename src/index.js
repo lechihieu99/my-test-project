@@ -1,13 +1,22 @@
-import React from 'react';
+import React, { Suspense , lazy } from 'react';
 import ReactDOM from 'react-dom/client';
 import './index.css';
-import App from './App';
+import Loading from './Loader';
 import reportWebVitals from './reportWebVitals';
+
+function delayForDemo(promise) {
+  return new Promise(resolve => {
+    setTimeout(resolve, 2000);
+  }).then(() => promise);
+}
+const App = lazy( () => delayForDemo(import ('./App.js')));
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
-    <App />
+    <Suspense fallback={<Loading />}>
+      <App />
+    </Suspense>
   </React.StrictMode>
 );
 
